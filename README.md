@@ -1,4 +1,4 @@
-# Spotify_Hybrid-Recommende-System
+# Spotify_Hybrid-Recommender-System
 Data collected from Spotify API, Using both Content-Based &amp; Collaborative Filtering
 
 
