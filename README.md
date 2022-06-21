@@ -1,6 +1,13 @@
 # Spotify_Hybrid-Recommender-System
 Data collected from Spotify API, Using both Content-Based &amp; Collaborative Filtering
 
+# Modelling
+## Content-Based Filtering
+Cosine similarity + Euclidean Distance
+
+## Song2Vec
+<img width="471" alt="image" src="https://user-images.githubusercontent.com/97433988/174727332-6a4c1659-cfe3-4402-8f29-240a5c9bf8f1.png">
+
 
 # Features Info
 
