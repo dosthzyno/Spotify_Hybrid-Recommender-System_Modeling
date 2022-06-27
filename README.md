@@ -1,16 +1,21 @@
 # Spotify_Hybrid-Recommender-System
-Data collected from Spotify API, Using both Content-Based &amp; Collaborative Filtering
+Data collected from Spotify API, Using both Content-Based &amp; Machine Learning Recommendation
 
 
 
 # Modelling
 **Content-Based Filtering**
 
-Cosine similarity + Euclidean Distance
+- Cosine similarity + Euclidean Distance
+- In order to solve "Cold Start" problem, few questions are given to the users. This allows me to get simple information about users, which helps recommending songs at the start of the service. 
 
-**Song2Vec**
 
-<img width="471" alt="image" src="https://user-images.githubusercontent.com/97433988/174727332-6a4c1659-cfe3-4402-8f29-240a5c9bf8f1.png">
+
+**K-Means Clustering Recommendation**
+- Sicne our data does not have any labels such as whether user prefers song or not, my idea was to cluster the track into different groups by using unsupervised learning. 
+- Thus, K-Means Clustering was involved and our track is classified into 6 different groups.
+- If I get the user's playlist, this system classifies which cluster does user's playlist belongs to and recommend similar songs from same cluster.
+
 
 
 
