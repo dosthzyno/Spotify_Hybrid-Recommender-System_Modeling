@@ -12,9 +12,9 @@ Data collected from Spotify API, Using both Content-Based &amp; Machine Learning
 
 
 **K-Means Clustering Recommendation**
-- Sicne our data does not have any labels such as whether user prefers song or not, my idea was to cluster the track into different groups by using unsupervised learning. 
+- Since our data does not have any labels such as whether user prefers song or not, my idea was to cluster the track into different groups by using unsupervised learning. 
 - Thus, K-Means Clustering was involved and our track is classified into 6 different groups.
-- If I get the user's playlist, this system classifies which cluster does user's playlist belongs to and recommend similar songs from same cluster.
+- If I get the user's playlist, this system classifies which cluster does user's playlist belongs to and recommend similar songs from the same cluster.
 
 
 
